@@ -8,6 +8,9 @@ import OfXAndYSource from "!raw-loader!guide-examples/plots/of-x-and-y.tsx"
 import TwistyBoi from "guide-examples/plots/twisty-boi"
 import TwistyBoiSource from "!raw-loader!guide-examples/plots/twisty-boi.tsx"
 
+import EllipticCurve from "guide-examples/plots/elliptic-curve"
+import EllipticCurveSource from "!raw-loader!guide-examples/plots/elliptic-curve.tsx"
+
 import VectorFieldExample from "guide-examples/VectorFieldExample"
 import VectorFieldExampleSource from "!raw-loader!guide-examples/VectorFieldExample"
 
@@ -35,6 +38,10 @@ function Functions() {
       <h2>Parametric functions</h2>
       <CodeAndExample component={<TwistyBoi />} source={TwistyBoiSource} />
       <PropTable of={Plot.Parametric} />
+
+      <h2>Implicit functions</h2>
+      <CodeAndExample component={<EllipticCurve />} source={EllipticCurveSource} />
+      <PropTable of={Plot.Implicit} />
 
       <h2>Vector fields</h2>
 
