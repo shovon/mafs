@@ -25,7 +25,7 @@ export function Implicit({
   plotDepth = 3,
   svgPathProps = {},
 }: ImplicitProps) {
-  const { viewTransform } = useTransformContext()
+  // const { viewTransform } = useTransformContext()
   const {
     xPaneRange: [xMin, xMax],
     yPaneRange: [yMin, yMax],
